@@ -1,0 +1,1399 @@
+repo_name: DrivenIdeaLab/formbricks
+report_id: dbcb2ee0a6599e93b9ad8a2600da2b5d
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-15T17:58:49+00:00'
+requested_by: gcascio
+provider: github
+branch: main
+detected_tools_count: 105
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/database/migrations/20230329205933_init/migration.sql
+  detection_source: packages/database/migrations/20230329205933_init/migration.sql
+  last_updated_by: Matti Nannt
+  last_updated_on: 2023-03-29 21:34:29.000000000 Z
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Matthias Nannt
+  last_updated_on: 2022-11-24 11:29:18.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Matthias Nannt
+  last_updated_on: 2022-11-24 11:29:18.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 14.2.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: Matthias Nannt
+  last_updated_on: 2022-12-08 16:19:54.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Midka
+  last_updated_on: 2023-02-14 10:17:46.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/surveys/package.json
+  detection_source: packages/surveys/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2023-09-10 05:06:55.000000000 Z
+- name: Preact
+  description: Fast 3kb alternative to React with the same ES6 API
+  website_url: http://developit.github.io/preact/
+  version: 10.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/4388/preact.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/surveys/package.json
+  detection_source: packages/surveys/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/storybook/package.json
+  detection_source: apps/storybook/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: Zustand
+  description: Bear necessities for state management in React
+  website_url: https://github.com/react-spring/zustand
+  version: 4.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Monitoring for Analytics
+  image_url: https://img.stackshare.io/service/11559/zustand.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-03-14 13:17:13.000000000 Z
+- name: react-beautiful-dnd
+  description: Beautiful and accessible drag and drop for lists with React (by Atlassian)
+  website_url: https://github.com/atlassian/react-beautiful-dnd
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9878/react-beautiful-dnd-logo.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Dhruwang Jariwala
+  last_updated_on: 2024-04-25 13:04:10.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/.devcontainer/docker-compose.yml
+  detection_source: ".devcontainer/docker-compose.yml"
+  last_updated_by: Midka
+  last_updated_on: 2023-02-14 10:17:46.000000000 Z
+- name: Prisma
+  description: Modern Database Access for TypeScript &amp; Node.js
+  website_url: https://www.prisma.io/
+  version: 5.13.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/database/package.json
+  detection_source: packages/database/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 4.6.13
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Shubham Palriwala
+  last_updated_on: 2024-04-02 14:46:43.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-02-22 18:18:06.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/storybook/package.json
+  detection_source: apps/storybook/package.json
+  last_updated_by: Anjy Gupta
+  last_updated_on: 2023-10-13 21:29:12.000000000 Z
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/storybook/package.json
+  detection_source: apps/storybook/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-05 16:47:36.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/.github/workflows/apply-issue-labels-to-pr.yml
+  detection_source: ".github/workflows/apply-issue-labels-to-pr.yml"
+  last_updated_by: Matti Nannt
+  last_updated_on: 2023-09-04 08:05:30.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Matthias Nannt
+  last_updated_on: 2022-11-24 11:29:18.000000000 Z
+- name: Playwright
+  description: Node library to automate Chromium, Firefox and WebKit with a single
+    API (By Microsoft)
+  website_url: https://github.com/microsoft/playwright
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/prettier-config/package.json
+  detection_source: packages/prettier-config/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/storybook/package.json
+  detection_source: apps/storybook/package.json
+  last_updated_by: Anjy Gupta
+  last_updated_on: 2023-10-13 21:29:12.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.91.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-05 16:47:36.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/ui/package.json
+  detection_source: packages/ui/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2022-10-13 07:46:43.000000000 Z
+- name: Google App Engine
+  description: Build web applications on the same scalable systems that power Google
+    applications
+  website_url: https://developers.google.com/appengine
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/139/s01TMTGn.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/.devcontainer/docker-compose.yml
+  detection_source: ".devcontainer/docker-compose.yml"
+  last_updated_by: Midka
+  last_updated_on: 2023-02-14 10:17:46.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/ee/package.json
+  detection_source: packages/ee/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: Vercel
+  description: It makes serverless application deployment easy
+  website_url: https://vercel.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/7618/bHjpwZem_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/vercel.json
+  detection_source: apps/web/vercel.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2023-09-30 20:42:27.000000000 Z
+- name: iDoneThis
+  description: Easy daily check-ins and powerful progress reports to run more effective
+    and productive teams
+  website_url: https://idonethis.com/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Team Task Management
+  image_url: https://img.stackshare.io/service/338/default_f863a3d7f927a74d6ae21e8e152265bd07ca6cfe.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Shubham Palriwala
+  last_updated_on: 2023-10-05 09:04:34.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Matthias Nannt
+  last_updated_on: 2022-12-05 15:07:12.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Matthias Nannt
+  last_updated_on: 2022-11-24 11:29:18.000000000 Z
+- name: Formbricks
+  description: Open source surveys and experience management solution
+  website_url: https://formbricks.com/
+  open_source: true
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Survey Widget
+  image_url: https://img.stackshare.io/service/102046/default_0719c49dc2806a2b35854d8716ee44bdb929cf7f.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Shubham Palriwala
+  last_updated_on: 2024-02-23 16:41:38.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-03-13 15:35:51.000000000 Z
+- name: Lottie
+  description: Easily add high-quality animation to any native app (by Airbnb)
+  website_url: http://airbnb.design/lottie/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Mobile Prototyping & Interaction Design Tools
+  image_url: https://img.stackshare.io/service/6445/lottie.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matthias Nannt
+  last_updated_on: 2023-08-22 12:25:06.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Dhruwang Jariwala
+  last_updated_on: 2024-04-25 13:04:10.000000000 Z
+- name: OAuth2
+  description: An open standard for access delegation
+  website_url: https://oauth.net/2/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/4507/oauth2-logo.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Shubham Palriwala
+  last_updated_on: 2023-10-05 09:04:34.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Shubham Palriwala
+  last_updated_on: 2024-01-22 10:49:33.000000000 Z
+- name: React Email
+  description: Build and send emails using React
+  website_url: https://react.email/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Open Source Email Templates
+  image_url: https://img.stackshare.io/service/48507/default_b6227d8a7d52bdbb43038d411ec0e05561529231.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Nick van Leeuwen
+  last_updated_on: 2024-02-14 09:02:08.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks
+  detection_source: Repo Metadata
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/database/package.json
+  detection_source: packages/database/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2022-10-13 07:46:43.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/lib/package.json
+  detection_source: packages/lib/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-05 16:47:36.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-03-02 11:17:53.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-03-02 11:17:53.000000000 Z
+- name: qrcode
+  website_url: http://goqr.me/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8580/no-img-open-source.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2023-11-16 21:45:48.000000000 Z
+- name: superJSON
+  website_url: https://github.com/blitz-js/superjson
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/25051/default_e6d588b7b89872630cad4650352e935999e0d113.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/lib/package.json
+  detection_source: packages/lib/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-26 15:18:10.000000000 Z
+- name: xlsx
+  description: SheetJS Spreadsheet data parser and writer
+  package_url: https://www.npmjs.com/xlsx
+  version: 0.18.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16781/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Jonas Höbenreich
+  last_updated_on: 2023-10-02 15:04:11.000000000 Z
+  vulnerabilities:
+  - name: SheetJS Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2024-22363
+    cve_url: https://github.com/advisories/GHSA-5pgg-2g8v-p4x9
+    detected_date: Apr 9
+    severity: high
+    first_patched: 0.20.2
+  - name: Prototype Pollution in sheetJS
+    cve_id: CVE-2023-30533
+    cve_url: https://github.com/advisories/GHSA-4r6h-8v6p-xvw6
+    detected_date: Apr 25
+    severity: high
+    first_patched: 0.19.3
+- name: "@mdx-js/react"
+  description: React implementation for MDX
+  package_url: https://www.npmjs.com/@mdx-js/react
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: "@prisma/client"
+  description: Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript
+    ORM for Node.js that's tailored to your data
+  package_url: https://www.npmjs.com/@prisma/client
+  version: 5.13.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/database/package.json
+  detection_source: packages/database/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: "@storybook/addon-links"
+  description: Story Links addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-links
+  version: 8.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/storybook/package.json
+  detection_source: apps/storybook/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 8.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/storybook/package.json
+  detection_source: apps/storybook/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.12
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: "@types/jsonwebtoken"
+  description: TypeScript definitions for jsonwebtoken
+  package_url: https://www.npmjs.com/@types/jsonwebtoken
+  version: 9.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16959/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/lib/package.json
+  detection_source: packages/lib/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-26 15:18:10.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Anik Dhabal Babu
+  last_updated_on: 2024-04-18 03:49:42.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.12.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/tsconfig/package.json
+  detection_source: packages/tsconfig/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.79
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/tsconfig/package.json
+  detection_source: packages/tsconfig/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/tsconfig/package.json
+  detection_source: packages/tsconfig/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 7.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/storybook/package.json
+  detection_source: apps/storybook/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 7.7.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/storybook/package.json
+  detection_source: apps/storybook/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: acorn
+  description: ECMAScript parser
+  package_url: https://www.npmjs.com/acorn
+  version: 8.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16344/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-03-14 13:17:13.000000000 Z
+- name: bcryptjs
+  description: Optimized bcrypt in plain JavaScript with zero dependencies
+  package_url: https://www.npmjs.com/bcryptjs
+  version: 2.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2023-11-16 21:45:48.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/surveys/package.json
+  detection_source: packages/surveys/package.json
+  last_updated_by: Dhruwang Jariwala
+  last_updated_on: 2024-01-23 17:05:47.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 14.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/eslint-config-formbricks/package.json
+  detection_source: packages/eslint-config-formbricks/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/eslint-config-formbricks/package.json
+  detection_source: packages/eslint-config-formbricks/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.34.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/eslint-config-formbricks/package.json
+  detection_source: packages/eslint-config-formbricks/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/eslint-config-formbricks/package.json
+  detection_source: packages/eslint-config-formbricks/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: fast-glob
+  description: It's a very fast and efficient glob library for Node.js
+  package_url: https://www.npmjs.com/fast-glob
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17033/default_50357c490b205882dcfb608fd3c74b446186c21e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-03-14 13:17:13.000000000 Z
+- name: googleapis
+  description: Google APIs Client Library for Node.js
+  package_url: https://www.npmjs.com/googleapis
+  version: 134.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16842/default_d7dbced92f420888f118516ac7144afed4acf9ca.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-03-13 15:35:51.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 9.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-03-02 11:17:53.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 9.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-02-22 18:18:06.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 15.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-03-02 11:17:53.000000000 Z
+- name: lru-cache
+  description: A cache object that deletes the least-recently-used items
+  package_url: https://www.npmjs.com/lru-cache
+  version: 10.2.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16386/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Matthias Nannt
+  last_updated_on: 2024-04-24 18:20:02.000000000 Z
+- name: markdown-it
+  description: Markdown-it - modern pluggable markdown parser
+  package_url: https://www.npmjs.com/markdown-it
+  version: 14.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16277/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/lib/package.json
+  detection_source: packages/lib/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-05 16:47:36.000000000 Z
+- name: mime
+  description: A comprehensive library for mime-type mapping
+  package_url: https://www.npmjs.com/mime
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16182/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Matthias Nannt
+  last_updated_on: 2024-04-24 18:20:02.000000000 Z
+- name: mime-types
+  description: The ultimate javascript content-type utility
+  package_url: https://www.npmjs.com/mime-types
+  version: 2.1.35
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16448/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/lib/package.json
+  detection_source: packages/lib/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-26 15:18:10.000000000 Z
+- name: nanoid
+  description: A tiny
+  package_url: https://www.npmjs.com/nanoid
+  version: 5.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/lib/package.json
+  detection_source: packages/lib/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: next-auth
+  description: Authentication for Next.js
+  package_url: https://www.npmjs.com/next-auth
+  version: 4.24.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/lib/package.json
+  detection_source: packages/lib/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matthias Nannt
+  last_updated_on: 2023-08-22 12:25:06.000000000 Z
+- name: papaparse
+  description: Fast and powerful CSV parser for the browser that supports web workers
+    and streaming large files
+  package_url: https://www.npmjs.com/papaparse
+  version: 5.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17945/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Anik Dhabal Babu
+  last_updated_on: 2024-04-18 03:49:42.000000000 Z
+- name: prisma
+  description: Prisma is an open-source database toolkit
+  package_url: https://www.npmjs.com/prisma
+  version: 5.13.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/database/package.json
+  detection_source: packages/database/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Shubham Palriwala
+  last_updated_on: 2024-01-22 10:49:33.000000000 Z
+- name: qrcode
+  description: QRCode / 2d Barcode api with both server side and client side support
+    using canvas
+  package_url: https://www.npmjs.com/qrcode
+  version: 1.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17638/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2023-11-16 21:45:48.000000000 Z
+- name: react-day-picker
+  description: Flexible date picker component for React
+  package_url: https://www.npmjs.com/react-day-picker
+  version: 8.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18299/default_678ce8b19e8cee1dde03f165f62525a2c9d0c034.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/ui/package.json
+  detection_source: packages/ui/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: react-select
+  description: A Select control built with and for ReactJS
+  package_url: https://www.npmjs.com/react-select
+  version: 5.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16452/default_d634bba6819a28b85a138b7ded782cadbfa6a482.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/package.json
+  detection_source: packages/package.json
+  last_updated_by: Dhruwang Jariwala
+  last_updated_on: 2024-03-18 19:02:18.000000000 Z
+- name: remark
+  description: Markdown processor powered by plugins
+  package_url: https://www.npmjs.com/remark
+  version: 15.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16952/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  version: 4.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 5.0.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2023-12-21 15:39:30.000000000 Z
+- name: serve
+  description: Static file serving and directory listing
+  package_url: https://www.npmjs.com/serve
+  version: 14.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/surveys/package.json
+  detection_source: packages/surveys/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.33.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-17 11:34:38.000000000 Z
+- name: terser
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/terser
+  version: 5.30.4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16562/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/api/package.json
+  detection_source: packages/api/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/packages/database/package.json
+  detection_source: packages/database/package.json
+  last_updated_by: Anshuman Pandey
+  last_updated_on: 2024-04-23 13:21:28.000000000 Z
+- name: tsx
+  description: TypeScript Execute
+  package_url: https://www.npmjs.com/tsx
+  version: 4.7.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Matthias Nannt
+  last_updated_on: 2022-06-06 04:38:36.000000000 Z
+- name: ua-parser-js
+  description: Lightweight JavaScript-based user-agent string parser
+  package_url: https://www.npmjs.com/ua-parser-js
+  version: 1.0.37
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17510/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Anik Dhabal Babu
+  last_updated_on: 2024-04-18 03:49:42.000000000 Z
+- name: unist-util-visit
+  description: Recursively walk over unist nodes
+  package_url: https://www.npmjs.com/unist-util-visit
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17139/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/formbricks-com/package.json
+  detection_source: apps/formbricks-com/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2023-09-11 06:05:55.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 5.2.10
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/formbricks/blob/main/apps/storybook/package.json
+  detection_source: apps/storybook/package.json
+  last_updated_by: Matti Nannt
+  last_updated_on: 2024-04-25 08:07:56.000000000 Z
